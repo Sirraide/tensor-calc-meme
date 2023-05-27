@@ -1,0 +1,35 @@
+\documentclass[12pt, a4paper, oneside, final, fleqn]{article}
+\usepackage[margin=10pt]{geometry}
+\usepackage{graphicx, tabularx, array, multirow}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+
+\begin{document}
+\Huge\parindent0pt
+\vbox to 0pt {
+\hspace*{2cm}\includegraphics[width=.8\paperwidth]{img}
+}
+
+\vspace*{1cm}
+
+\hbox to .5\hsize {\kern-.5cm\vbox {
+\begin{align*}
+a^1b^1g_{11} &+ \cdots + a^1b^ng_{1n}\\
+&+ \cdots +\\
+a^nb^1g_{n1} &+ \cdots + a^nb^ng_{nn}
+\end{align*}
+}}
+
+\vspace*{2cm}\fontsize{40pt}{40pt}\selectfont
+
+\hbox{\hspace*{.0cm}\vbox{\[\sum_{\mu=1}^n \sum_{\nu=1}^n a^\mu b^\nu g_{\mu\nu}\]}}
+
+\vspace*{3.2cm}
+
+\hbox{\hspace*{.5cm}\vbox{\[\left\| a \right\| \left\| b \right\| \cos \sphericalangle_{ab}\]}}
+
+\vspace*{4.75cm}
+
+\hbox{\hspace*{2.5cm}\vbox{\[a^\mu b^\nu g_{\mu\nu}\]}}
+\end{document}
